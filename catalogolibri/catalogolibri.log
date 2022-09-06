@@ -1,0 +1,77 @@
+"2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - Starting CatalogolibriApplication using Java 18.0.1 on LAPTOP-34ODBA9S with PID 10560 (C:\Users\moren\eclipse-workspace\catalogolibri\target\classes started by moren in C:\Users\moren\eclipse-workspace\catalogolibri)
+""2022-09-06 [main] DEBUG i.e.b.c.CatalogolibriApplication - Running with Spring Boot v2.7.3, Spring v5.3.22
+""2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-09-06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-09-06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+""2022-09-06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-09-06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-09-06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-09-06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-09-06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1279 ms
+""2022-09-06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-09-06 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-09-06 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-09-06 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-09-06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-09-06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-09-06 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2022-09-06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-09-06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-09-06 [main] DEBUG i.e.b.c.util.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+""2022-09-06 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@576323ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fc386f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@70940cb8, org.springframework.security.web.header.HeaderWriterFilter@1fb00a6d, org.springframework.security.web.authentication.logout.LogoutFilter@4987142d, it.epicode.be.catalogolibri.util.AuthTokenFilter@129e45eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3810806c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bbe532b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7eb94590, org.springframework.security.web.session.SessionManagementFilter@1ee52741, org.springframework.security.web.access.ExceptionTranslationFilter@2643ed03, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41f61188]
+""2022-09-06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - Started CatalogolibriApplication in 4.172 seconds (JVM running for 4.933)
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1/java.lang.Thread.run(Thread.java:833)
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - Starting CatalogolibriApplication using Java 18.0.1 on LAPTOP-34ODBA9S with PID 3276 (C:\Users\moren\eclipse-workspace\catalogolibri\target\classes started by moren in C:\Users\moren\eclipse-workspace\catalogolibri)
+""2022-09-06 [main] DEBUG i.e.b.c.CatalogolibriApplication - Running with Spring Boot v2.7.3, Spring v5.3.22
+""2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-09-06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-09-06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+""2022-09-06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-09-06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-09-06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+""2022-09-06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-09-06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+""2022-09-06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-09-06 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-09-06 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+""2022-09-06 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-09-06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-09-06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-09-06 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2022-09-06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-09-06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-09-06 [main] DEBUG i.e.b.c.util.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+""2022-09-06 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37816ea6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a74672, org.springframework.security.web.context.SecurityContextPersistenceFilter@4acdf6e7, org.springframework.security.web.header.HeaderWriterFilter@18356951, org.springframework.security.web.authentication.logout.LogoutFilter@2f5a092e, it.epicode.be.catalogolibri.util.AuthTokenFilter@5464aeec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7804a783, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70044113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35b79b1f, org.springframework.security.web.session.SessionManagementFilter@3b663112, org.springframework.security.web.access.ExceptionTranslationFilter@7683ea43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16602333]
+""2022-09-06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-09-06 [main] INFO  i.e.b.c.CatalogolibriApplication - Started CatalogolibriApplication in 3.538 seconds (JVM running for 4.117)
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1/java.lang.Thread.run(Thread.java:833)
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-09-06 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
